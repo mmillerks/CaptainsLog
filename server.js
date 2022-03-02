@@ -49,7 +49,7 @@ app.listen(3000, function() {
 
 
 //NEW
-app.get('/new', (req, res) => {
+app.get('/logs/new', (req, res) => {
     res.render("views/New")
 });
 
